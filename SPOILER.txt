@@ -1,0 +1,29 @@
+1. テキストの目的
+	ゲームプレイだけではわかりにくいアレコレのまとめ。先の内容を含むためある程度プレイしたあとに読むことを推奨します。元々読まなくても問題ありません。
+	
+2. エネミー一覧
+	A : AQUATOR
+	B : BAT
+	C : CENTAUR
+	D : ANCIENT DRAGON
+	E : EMU
+	f :  fancyrat
+	G : GRIFFITH
+	H : HOBGOBLIN
+	J : JABBERWOCK
+	K : KESTRAL
+	N : NYMPH
+	o : ORC
+	Q : QUAGGA
+	R : RATTLESNAKE
+	T : TROLL
+	W : WRAITH
+	
+3. 細かい解説
+	・fireballで1撃(弱め)、lightningで1撃(通常)、lightningを1回耐える(中ボス)の敵に分けられる。
+	・fireballは範囲攻撃(自分にも判定あり)、lightningは最も近い敵にダメージを与える。
+	・あまりにシビアすぎたためプレイヤーのステータスを増やしている。旧ステータスはHP: 30、ATK: 2、DEF: 6。クリア可能検証済み。再現するにはentity_factories.py内のplayerの値を変更すれば良い。
+	・暫定版として内容は以上。今後さらに更新予定。
+
+4. 更新履歴
+	・2026/01/31 : 初版作成
